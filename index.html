@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1 id="amor">Calculadora</h1>
+    <div class="calculadora">
+        <div id="result"> <div id="display"></div></div>
+        <div class="symbol">
+            <div><button id="parenteses-esquerda" disabled="true">(</button></div>
+            <div><button id="parenteses-direita" disabled="true">)</button></div>
+            <div><button id="porcentagem" disabled="true">%</button></div>
+            <div><button id="limpar" onclick="clearResult();">AC</button></div>
+            <div><button id="sete" onclick="pressNumber('7');">7</button></div>
+            <div><button id="oito" onclick="pressNumber('8');">8</button></div>
+            <div><button id="nove" onclick="pressNumber('9');">9</button></div>
+            <div><button id="divisao" onclick="pressDivision();">/</button></div>
+            <div><button id="quatro" onclick="pressNumber('4');">4</button></div>
+            <div><button id="cinco" onclick="pressNumber('5');">5</button></div>
+            <div><button id="seis" onclick="pressNumber('6');">6</button></div>
+            <div><button id="mulitplicacao" onclick="pressMultiplication();">*</button></div>
+            <div><button id="um" onclick="pressNumber('1');">1</button></div>
+            <div><button id="dois" onclick="pressNumber('2');">2</button></div>
+            <div><button id="tres" onclick="pressNumber('3');">3</button></div>
+            <div><button id="subtracao" onclick="pressSubtraction();">-</button></div>
+            <div><button id="zero" onclick="pressNumber('0');">0</button></div>
+            <div><button id="ponto" onclick="pressNumber('.');">.</button></div>
+            <div><button id="resultado" onclick="pressResult();">=</button></div>
+            <div><button id="adicao" onclick="pressAddition();">+</id="resultado"button></div>
+        </div>
+
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
